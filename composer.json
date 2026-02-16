@@ -1,0 +1,22 @@
+{
+    "name": "inspectornetwork/logwatch-laravel",
+    "description": "Official Laravel logger for the Logwatch platform.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "InspectorNetwork\\Logwatch\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "InspectorNetwork\\Logwatch\\LogwatchServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0"
+    }
+}
