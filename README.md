@@ -1,5 +1,5 @@
 # Logwatch for Laravel
-Logwatch is a high-performance logging driver for Laravel that streams your application logs and exceptions to the Logwatch dashboard in real-time.
+Logwatch is a logging driver for Laravel that streams your application logs and exceptions to the Logwatch dashboard in real-time.
 
 ## Installation
 You can install the package via composer:
@@ -21,5 +21,5 @@ Smart Dispatching: Logwatch intelligently detects your execution environment. It
 * Auto-Discovery: No manual server registration required. Logwatch identifies originating nodes by their hostname.
 * Rich Context and Stack Traces: Pass exceptions or arrays directly to the logger. Logwatch captures the full stack trace and environment state.
 
-License
+## License
 The MIT License (MIT). Please see LICENSE.md for more information.
