@@ -7,10 +7,12 @@ You can install the package via composer:
 The service provider will automatically register the logwatch driver with Laravel's LogManager.
 
 ## Configuration
-1. Environment Setup
+1. **Environment Setup**
+
 Add your project credentials to your .env file.
 
-2. Configure Logging Channel
+2. **Configure Logging Channel** 
+
 Add the logwatch channel to the channels array in config/logging.php. To stream logs in parallel with your local files, add it to your stack.
 
 ## Features
